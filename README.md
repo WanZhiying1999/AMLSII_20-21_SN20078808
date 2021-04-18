@@ -20,7 +20,9 @@ Folder dataset contains the training set and test set for task A and B. And it a
 
 
 ### Implementation Guide
-Before you run the code, you can add images to the two data set folder.
-Next, you can change the path in main.py. 
+Before you run the code, you can add images to the two data set folder. 
+Download the pre-trained GloVe model 'glove.6B.100d.txt' in the release and put it in the folder Model.
+Next, you can change the dataset path in main.py. 
 Then, you can run the main.py to preprocess data, train and test the model.
 If you want to compare other models with our method, you can run the cnn.py, lstm.py and bilstm.py directly in the folder A.
+
